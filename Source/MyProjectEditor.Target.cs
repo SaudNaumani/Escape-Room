@@ -9,6 +9,8 @@ public class MyProjectEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 
+        //bUseUnityBuild = false;
+        //bUse PCHFiles = false;
 		ExtraModuleNames.AddRange( new string[] { "MyProject" } );
 	}
 }
